@@ -1,8 +1,10 @@
 # my-mkdocs-i18n-sample
+
 このプロジェクトは、MkDocsのプラグインmikeの試使用プロジェクトである。<br>
-サンプルページ：https://tomoten-umino.github.io/my-mkdocs-mike/
+サンプルページ：<https://tomoten-umino.github.io/my-mkdocs-mike/>
 
 # 動作確認した環境
+
 - OS : Ubuntu 20.04
 - CPU : Intel(R) Pentium(R) CPU G4560 @ 3.50GHz
 - RAM : 8GB
@@ -12,6 +14,7 @@
   - VSCode : 1.59.0
 
 # 使い方
+
 ## ディレクトリ構成
 
 ```bash
@@ -35,6 +38,7 @@ my-mkdocs-mike
 ```
 
 ## devcontainer立ち上げ、セットアップ
+
 - Gitリポジトリをcloneします。その後、my-mkdocs-mike以下に移動し、VS Codeを開きます。
 
 ```bash
@@ -54,6 +58,7 @@ $ pip install -r requirements.txt
 ```
 
 # mikeの使い方
+
 - 以下のサイトを参考にすること。
-  - mike : https://opensourcelibs.com/lib/mike
-  - qiita記事 : https://qiita.com/tomoten/items/39b87fc114d8f41b5ebd
+  - mike : <https://opensourcelibs.com/lib/mike>
+  - qiita記事 : <https://qiita.com/tomoten/items/39b87fc114d8f41b5ebd>
