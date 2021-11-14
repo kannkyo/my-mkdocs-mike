@@ -1,9 +1,9 @@
 name: MkDocsTest
 
-on: 
+on:
   push:
     tags:
-      - '*'
+      - "*"
 
 jobs:
   test:
@@ -16,7 +16,7 @@ jobs:
       - name: env
         uses: actions/setup-python@v2
         with:
-          python-version: '3.9.7'
+          python-version: "3.9.7"
       - name: build-mkdocs
         env:
           REF: ${{ github.ref }}
@@ -31,6 +31,7 @@ jobs:
           git checkout gh-pages
           cat .git/config
           git push origin gh-pages
+
 #      - uses: peaceiris/actions-gh-pages@v3
 #        with:
 #          github_token: ${{ secrets.GITHUB_TOKEN }}

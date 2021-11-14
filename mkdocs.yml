@@ -7,10 +7,10 @@ theme:
 
 nav:
   - Introduction:
-    - index.md
+      - index.md
   - MkDocs Sample:
-    - topic1/index.en.md
-    - topic1/page1.en.md
+      - topic1/index.en.md
+      - topic1/page1.en.md
 
 plugins:
   - search:
@@ -31,16 +31,16 @@ plugins:
           MkDocs Sample: MkDocsのサンプル
 
 extra:
-    version:
-        provider: mike
+  version:
+    provider: mike
 
 markdown_extensions:
-    - codehilite:
-        noclasses: true
-        pygments_style: colorful
-        linenums: true
-    - plantuml_markdown:
-        server: http://www.plantuml.com/plantuml
-    - admonition
-    - pymdownx.superfences
-    - pymdownx.details
+  - codehilite:
+      noclasses: true
+      pygments_style: colorful
+      linenums: true
+  - plantuml_markdown:
+      server: http://www.plantuml.com/plantuml
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.details
